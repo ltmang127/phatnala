@@ -1,7 +1,10 @@
-var app = angular.module("myApp", []);
+function ng(){
+    alert('here');
+    var app = angular.module("myApp", []);
 app.directive("aa", function() {
     return {
         template : "<h1>Made by a directive!</h1>"
     };
 });
 
+             }
