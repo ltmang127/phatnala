@@ -6,4 +6,4 @@ app.directive("aa", function() {
     };
 });
 alert('bottom');   
-
+function asdf(){alert('inside function');}
