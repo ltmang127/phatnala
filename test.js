@@ -1,4 +1,4 @@
-function ng(){
+<script>
     alert('here');
     var app = angular.module("myApp", []);
 app.directive("aa", function() {
@@ -7,4 +7,5 @@ app.directive("aa", function() {
     };
 });
 
-             }
+          alert('bottom');   
+</script>
