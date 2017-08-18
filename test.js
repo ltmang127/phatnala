@@ -1,4 +1,5 @@
-alert('here');
+function zxcv(){
+    alert('here');
 var app = angular.module("myApp", []);
 app.directive("aa", function() {
     return {
@@ -7,3 +8,4 @@ app.directive("aa", function() {
 });
 alert('bottom');   
 function asdf(){alert('inside function');}
+}
