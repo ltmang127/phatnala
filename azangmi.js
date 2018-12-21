@@ -1,5 +1,5 @@
 function azangmi(){
-
-alert('I am here');
+  document.getElementById("abc").innerHTML="Show me";
+  alert('I am here');
 
 }
