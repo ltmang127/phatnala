@@ -1,5 +1,5 @@
 function azangmi(){
 
-alert("I am here");
+alert('I am here');
 
 }
