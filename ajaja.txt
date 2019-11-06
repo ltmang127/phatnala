@@ -1,2 +1,14 @@
-ki sin na ci lo dia
-bang cih mawk ding
+<script>
+// Create an object:
+var person = {
+  firstName: "John <br/> Papa",
+  lastName : "Doe",
+  id     : 5566,
+  fullName : function() {
+    return this.firstName + " " + this.lastName;
+  }
+};
+
+// Display data from the object:
+document.getElementById("demo").innerHTML = person.fullName();
+</script>
